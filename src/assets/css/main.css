@@ -38,7 +38,7 @@
   }
 
   .nav__link {
-    @apply text-white text-[16px] tracking-wide relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-white after:transition-all after:duration-300 after:scale-x-0 after:hover:scale-x-100 after:rounded-full;
+    @apply text-white text-[16px] tracking-wide relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-white after:transition-all after:duration-300 after:scale-x-0 after:hover:scale-x-100 after:rounded-full lg:text-[14px];
   }
 }
 

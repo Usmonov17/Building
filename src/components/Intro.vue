@@ -2,7 +2,7 @@
   <div
     class="intro relative bg-img bg-cover bg-center w-full h-[100vh] after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black after:opacity-35 after:z-0"
   >
-    <div
+    <!-- <div
       class="container flex flex-col justify-center h-full relative z-10 pl-16 pt-16"
     >
       <h1
@@ -24,7 +24,7 @@
           >{{ $t("intro.call") }}</a
         >
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
