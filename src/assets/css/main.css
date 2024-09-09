@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("../../assets/fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display";
+  }
+
+  body::-webkit-scrollbar {
+    width: 2px;
+    background-color: #fce8bd;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: #064f7f;
+    border-radius: 20px;
+  }
+
+  .container {
+    @apply max-w-[1140px] w-full mx-auto px-4;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  ul {
+    @apply list-none;
+  }
+
+  .nav__link {
+    @apply text-white text-[16px] tracking-wide relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-white after:transition-all after:duration-300 after:scale-x-0 after:hover:scale-x-100 after:rounded-full;
+  }
+}
+
+@layer utilities {
+  .bg-img {
+    background-image: url('../images/bg.jpeg');
+  }
+}

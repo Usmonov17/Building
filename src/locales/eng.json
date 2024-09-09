@@ -1,0 +1,15 @@
+{
+  "nav_data": {
+    "info": "Information",
+    "about_us": "About Us",
+    "companies": "Companies",
+    "advantages": "Our Advantages",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "intro": {
+    "text": "All in safety",
+    "projects": "Our projects",
+    "call": "Contact"
+  }
+}
