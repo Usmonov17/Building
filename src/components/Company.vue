@@ -36,17 +36,17 @@
   </div>
 </template>
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, computed } from "vue";
 import { useI18n } from "vue-i18n";
 
 const { t } = useI18n();
 
-const company = [
+const company = computed(() => [
   { count: 120, text: t("company.text1") },
   { count: 43, text: t("company.text2") },
   { count: 250, text: t("company.text3") },
   { count: 14, text: t("company.text4") },
-];
+]);
 
 onMounted(() => {
   const observer = new IntersectionObserver((entries, observer) => {

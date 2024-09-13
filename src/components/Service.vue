@@ -27,12 +27,14 @@
 
 <script setup>
 import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 const { t } = useI18n();
 import service1 from "../assets/images/service.png";
 import service2 from "../assets/images/service2.png";
 import service3 from "../assets/images/service3.png";
 import service4 from "../assets/images/service4.png";
-let service = [
+
+const service = computed(() => [
   {
     text: `${t("service.text1")}`,
     img: service1,
@@ -49,5 +51,5 @@ let service = [
     text: `${t("service.text4")}`,
     img: service4,
   },
-];
+]);
 </script>
