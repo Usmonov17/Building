@@ -11,5 +11,48 @@
     "text": "Hammasi a'lo darajada",
     "projects": "Bizning loyihalar",
     "call": "Bog'lanish"
+  },
+  "service": {
+    "title": "Bizning xizmatlar",
+    "text1": "Siz kompaniyamiz mutaxassislaridan bepul ma'lumot olishingiz mumkin",
+    "text2": "Hujjatlarni rasmiylashtirish",
+    "text3": "Ta'mirlash tuzatish xizmati",
+    "text4": "Professionallar jamoasi"
+  },
+  "company": {
+    "title": "Bizning kompaniya",
+    "text1": "Xodimlar soni",
+    "text2": "Obyektlar",
+    "text3": "Maxsus jihozlar",
+    "text4": "yil bozorda"
+  },
+  "houses": {
+    "title": "Sizning orzuyinggizdagi uylar"
+  },
+  "projects": {
+    "title": "Bizning loyihalar",
+    "card": {
+      "text1": "Bu keng ko'lamli ijtimoiy ahamiyatga ega loyiha. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir.",
+      "text2": "O'zbekiston aholisiga qulaylik yaratish maqsadida yaratilgan ko'p funksiyali turar-joy majmuasi.",
+      "text3": "Poytaxt markazidagi muhtasham turar-joy massivi.",
+      "text4": "Bu xalqaro darajada bilim beradigan ta'lim muassasasi",
+      "text5": "Tashkent City xalqaro biznes markazida joylashgan xalqaro bolalar bog'chasi va maktabi.",
+      "text6": "Bu xalqaro darajada bilim beradigan ta'lim muassasasi "
+    }
+  },
+  "news": {
+    "title": "Bizning yangiliklar",
+    "card": {
+      "title1": "Qurilish loyihasi menejeri kim?",
+      "text1": "Discover kompaniyasida qurilish loyihasi bo'yicha bir nechta menejerlar mavjud. Bu mutaxassis o'ziga ishonib topshirilgan qurilish ob'ektini muvaffaqiyatli amalga oshirish uchun mas'uldir. U rejalashtirish bosqichidan va loyiha hujjatlarini tasdiqlashdan tortib, ishga tushirishgacha bo'lgan butun jarayonni boshqaradi. Binoning, va ba'zan ham loyihadan keyingi yordamni amalga oshiradi.",
+      "title2": "Barchani kelayotgan YANGI YIL bilan tabriklayman!",
+      "text2": "Zallarning murakkab ichki dizayni kvartiraga kirishdan oldin ham qulaylik muhitini yaratadi va qulay navigatsiya tizimi sizga kerakli qavatga osongina chiqishga yoki hududga chiqishga yordam beradi.",
+      "title3": "Manzil",
+      "text3": "Transport infratuzilmasi shaharning istalgan nuqtasiga osongina ko'chib o'tishga imkon beradi: siz faqat kerakli va kerakli yo'nalishni tanlashingiz kerak.",
+      "title4": "Biz sizni Discover Invest ko'p funksiyali ob'ektlari bilan tanishtirishda davom etamiz.",
+      "text4": "Biz sizlarni 'ATAEV BAHODIR BUILD' kompaniyasining ko'p funksiyali ob'ektlari bilan tanishtirishda davom etamiz. Ulardan biri Toshkent shahrining Yangixoyat tumanida barpo etilgan 'Yangi Choshtepa turar-joy majmuasidir. Qurilishning umumiy maydoni 12 gektarni tashkil etadi. Shu kungacha 29 ta uy-joy qurildi. qurilgan.",
+      "link": "Batafsil bilish",
+      "linkBack": "< orqaga"
+    }
   }
 }

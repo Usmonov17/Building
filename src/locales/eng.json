@@ -11,5 +11,48 @@
     "text": "All in safety",
     "projects": "Our projects",
     "call": "Contact"
+  },
+  "service": {
+    "title": "Our services",
+    "text1": "You can get free information from our company's specialists",
+    "text2": "Document certification",
+    "text3": "Repair and maintenance service",
+    "text4": "Professional team"
+  },
+  "company": {
+    "title": "Our company",
+    "text1": "Number of employees",
+    "text2": "Objects",
+    "text3": "Special equipment",
+    "text4": "Years in business"
+  },
+  "houses": {
+    "title": "Your dream house"
+  },
+  "projects": {
+    "title": "Our projects",
+    "card": {
+      "text1": "This is a large-scale social project. Tashkent's cultural-entertainment cluster is one of the new places of attention.",
+      "text2": "A multi-functional residential complex created to meet the needs of the Uzbek population.",
+      "text3": "A multi-functional residential complex created to meet the needs of the Uzbek population.",
+      "text4": "This is an educational institution at an international level.",
+      "text5": "International school and school in Tashkent City International Business Center.",
+      "text6": "This is an educational institution at an international level."
+    }
+  },
+  "news": {
+    "title": "Our news",
+    "card": {
+      "title1": "Who is the project manager?",
+      "text1": "Discover Invest company has several project managers in the construction industry. This specialist is responsible for successfully completing the construction project entrusted to him. He oversees the entire process from the planning stage and approval of project documents to the launch of the project. Sometimes he also performs the tasks of the next stage of the project.",
+      "title2": "I congratulate everyone with the coming NEW YEAR!",
+      "text2": "The complex interior design not only creates a comfortable living environment and a convenient navigation system for you to easily exit the required floor or area.",
+      "title3": "Location",
+      "text3": "The transport infrastructure allows you to easily move to any point of the city: you just need to choose the necessary and necessary direction.",
+      "title4": "We continue to introduce you to our multi-functional objects Discover Invest.",
+      "text4": "We continue to introduce you to our multi-functional objects Discover Invest. One of them is a multi-apartment residential complex built in the Yangiyo'yat district of Tashkent. The total construction area is 12 hectares. So far, 29 apartments have been built.",
+      "link": "Learn more",
+      "linkBack": "< Back"
+    }
   }
 }

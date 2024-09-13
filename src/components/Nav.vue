@@ -1,10 +1,10 @@
 <template>
-  <nav class="nav py-4 fixed top-0 left-0 w-full z-20">
+  <nav class="nav sm:py-4 fixed top-0 left-0 w-full z-20 mini:py-1 xs:py-2">
     <div class="container">
       <div
-        class="nav__box flex items-center mx-auto w-full justify-between md:hidden"
+        class="nav__box items-center mx-auto w-full justify-between hidden lg:flex lg:gap-6 pl-10"
       >
-        <ul class="nav__list flex items-center gap-[60px] lg:gap-[30px]">
+        <ul class="nav__list flex items-center gap-[30px]">
           <li>
             <a href="" class="nav__link">{{ $t("nav_data.info") }}</a>
           </li>
@@ -16,11 +16,11 @@
           </li>
         </ul>
         <div>
-          <a href="" class="nav__logo w-[120px] block lg:w-[100px]">
+          <a href="" class="nav__logo w-[120px] block">
             <img src="../assets/images/logo.png" alt="" />
           </a>
         </div>
-        <ul class="nav__list flex items-center gap-[60px] lg:gap-[30px]">
+        <ul class="nav__list flex items-center gap-[30px] jus">
           <li>
             <a href="" class="nav__link">{{ $t("nav_data.advantages") }}</a>
           </li>
@@ -48,17 +48,25 @@
         </div>
       </div>
       <div
-        class="nav__box items-center mx-auto w-full justify-between hidden md:flex"
+        class="nav__box flex items-center mx-auto w-full justify-between lg:hidden"
       >
         <button @click="burger = true">
-          <img src="../assets/images/nav_menu.png" alt="" class="w-[30px]" />
+          <img
+            src="../assets/images/nav_menu.png"
+            alt=""
+            class="xs:w-[30px] w-[25px]"
+          />
         </button>
         <ul
-          class="nav__list flex items-center flex-col gap-[20px] absolute top-0 left-0 bg-slate-800 py-10 px-10 transition-all duration-500"
+          class="nav__list flex items-center flex-col gap-[15px] xs:gap-[20px] absolute top-0 left-0 bg-[#2c3442] py-5 xs:py-10 px-10 transition-all duration-500 z-50"
           :class="{ ' translate-x-[-100%]': !burger }"
         >
           <button class="absolute top-3 right-3" @click="burger = false">
-            <img src="../assets/images/nav_close.png" alt="" class="w-[30px]" />
+            <img
+              src="../assets/images/nav_close.png"
+              alt=""
+              class="xs:w-[30px] w-[25px]"
+            />
           </button>
           <li>
             <a href="" class="nav__link">{{ $t("nav_data.info") }}</a>
@@ -84,11 +92,18 @@
             <button @click="changeLang('en')">EN</button>
           </div>
         </ul>
-        <a href="" class="nav__logo w-[120px] block lg:w-[100px]">
+        <a
+          href=""
+          class="nav__logo w-[100px] block xs:w-[120px] translate-x-[20px]"
+        >
           <img src="../assets/images/logo.png" alt="" />
         </a>
         <a href="tel:+998338561712" class="cursor-pointer">
-          <img src="../assets/images/phone.svg" class="w-[30px]" alt="" />
+          <img
+            src="../assets/images/phone.svg"
+            class="w-[25px] xs:w-[30px]"
+            alt=""
+          />
         </a>
       </div>
     </div>
@@ -106,11 +121,15 @@ const isActive = () => {
 const changeLang = (newLang) => {
   locale.value = newLang;
   localStorage.setItem("locale", newLang);
+  burger.value = false;
 };
 
 const clickOutside = (event) => {
   if (!event.target.closest(".nav__lang")) {
     active.value = false;
+  }
+  if (!event.target.closest(".nav__box") && burger.value) {
+    burger.value = false;
   }
 };
 
