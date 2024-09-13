@@ -57,5 +57,10 @@
   },
   "cooperation": {
     "title": "Cooperation with partners"
+  },
+  "ataev": {
+    "title": "About ATAEV",
+    "text": "We don't just create projects, we create new opportunities. The construction of state objects allows us to create the future. We care about the environment: the company builds buildings and infrastructure, as well as related environmental aspects.",
+    "link": "Learn more"
   }
 }
