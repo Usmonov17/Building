@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div id="company"
     class="company lg:py-[50px] md:py-[40px] xs:py-[30px] mini:py-[20px] relative"
   >
     <img

@@ -1,5 +1,5 @@
 <template>
-  <div class="service lg:py-16 md:py-10 py-6 bg-[#fce8bd]">
+  <div id="service" class="service lg:py-16 md:py-10 py-6 bg-[#fce8bd]">
     <div class="container">
       <h2 class="title">{{ $t("service.title") }}</h2>
       <div

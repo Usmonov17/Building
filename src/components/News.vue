@@ -1,5 +1,5 @@
 <template>
-  <div class="news bg-[#fcf8f3] lg:py-10 md:py-8 sm:py-6 xs:py-5 mini:py-4">
+  <div id="news" class="news bg-[#fcf8f3] lg:py-10 md:py-8 sm:py-6 xs:py-5 mini:py-4">
     <div class="container">
       <h2 class="title">{{ t("news.title") }}</h2>
       <div

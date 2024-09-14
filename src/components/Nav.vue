@@ -6,29 +6,35 @@
       >
         <ul class="nav__list flex items-center gap-[30px]">
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.info") }}</a>
+            <a href="#ataev" class="nav__link">{{ $t("nav_data.info") }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.about_us") }}</a>
+            <a href="#company" class="nav__link">{{
+              $t("nav_data.about_us")
+            }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.companies") }}</a>
+            <a href="#projects" class="nav__link">{{
+              $t("nav_data.companies")
+            }}</a>
           </li>
         </ul>
         <div>
-          <a href="" class="nav__logo w-[120px] block">
+          <a href="#intro" class="nav__logo w-[120px] block">
             <img src="../assets/images/logo.png" alt="" />
           </a>
         </div>
         <ul class="nav__list flex items-center gap-[30px] jus">
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.advantages") }}</a>
+            <a href="#service" class="nav__link">{{
+              $t("nav_data.advantages")
+            }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.news") }}</a>
+            <a href="#news" class="nav__link">{{ $t("nav_data.news") }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.contact") }}</a>
+            <a href="#footer" class="nav__link">{{ $t("nav_data.contact") }}</a>
           </li>
         </ul>
         <div class="nav__lang group relative select-none" @click="isActive">
@@ -69,22 +75,30 @@
             />
           </button>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.info") }}</a>
+            <a href="#ataev" class="nav__link">{{ $t("nav_data.info") }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.about_us") }}</a>
+            <a href="#company" class="nav__link">{{
+              $t("nav_data.about_us")
+            }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.companies") }}</a>
+            <a href="#projects" class="nav__link">{{
+              $t("nav_data.companies")
+            }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.advantages") }}</a>
+            <a href="#service" class="nav__link">{{
+              $t("nav_data.advantages")
+            }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.news") }}</a>
+            <a href="#news" class="nav__link">{{ $t("nav_data.news") }}</a>
           </li>
           <li>
-            <a href="" class="nav__link">{{ $t("nav_data.contact") }}</a>
+            <a href="tel:+998908561712" class="nav__link">{{
+              $t("nav_data.contact")
+            }}</a>
           </li>
           <div class="nav__lang select-none text-white flex gap-4 mt-2">
             <button @click="changeLang('uz')">UZ</button>
@@ -93,7 +107,7 @@
           </div>
         </ul>
         <a
-          href=""
+          href="#intro"
           class="nav__logo w-[100px] block xs:w-[120px] translate-x-[20px]"
         >
           <img src="../assets/images/logo.png" alt="" />
@@ -134,11 +148,22 @@ const clickOutside = (event) => {
 };
 
 onMounted(() => {
+  const nav = document.querySelector(".nav");
+  const navBg = () => {
+    if (window.scrollY >= nav.clientHeight) {
+      nav.classList.add("bg-[#202733]", "border-b-[1px]", "border-white");
+    } else {
+      nav.classList.remove("bg-[#202733]", "border-b-[1px]", "border-white");
+    }
+  };
+
   window.addEventListener("click", clickOutside);
+  window.addEventListener("scroll", navBg);
 });
 
 onBeforeUnmount(() => {
   window.removeEventListener("click", clickOutside);
+  window.removeEventListener("scroll", navBg);
 });
 
 const burger = ref(false);

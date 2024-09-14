@@ -1,5 +1,5 @@
 <template>
-  <div class="projects md:py-8 sm:py-6 mini:py-4">
+  <div id="projects" class="projects md:py-8 sm:py-6 mini:py-4">
     <div class="container">
       <h2 class="title lg:my-10 md:mb-8 md:mt-4 sm:mb-3 my-2">
         {{ t("projects.title") }}

@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div id="intro"
     class="intro pt-20 relative bg-img bg-cover bg-center w-full md:h-[100vh] mini:h-[500px] xs:h-[550px] sm:h-[600px] after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black after:opacity-35 after:z-0"
   >
     <div
@@ -17,10 +17,10 @@
         {{ $t("intro.text") }}
       </p>
       <div class="intro__link flex items-center gap-x-4 mini:mx-auto md:mx-0">
-        <router-link
-          to="/projects"
+        <a
+          href="#projects"
           class="text-white md:text-lg mini:text-sm border-2 border-white rounded-full px-4 py-2 hover:bg-white hover:text-black transition-all duration-500"
-          >{{ $t("intro.projects") }}</router-link
+          >{{ $t("intro.projects") }}</a
         >
         <a
           href="tel:+998338561712"

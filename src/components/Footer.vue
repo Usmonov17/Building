@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer bg-[#fce8bd] lg:p-16 md:p-10 sm:p-8 xs:p-5 mini:p-4">
+  <footer id="footer" class="footer bg-[#fce8bd] lg:p-16 md:p-10 sm:p-8 xs:p-5 mini:p-4">
     <div class="container flex sm:justify-between mini:justify-around">
       <div class="footer__media w-[40%] flex flex-col mini:items-center sm:items-start mini:text-center">
         <img src="../assets/images/dark-logo.png" alt="logo"
