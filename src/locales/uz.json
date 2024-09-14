@@ -62,5 +62,13 @@
     "title": "ATAEV haqida",
     "text": "Biz shunchaki loyihalar yaratmaymiz, yangi imkoniyatlar yaratamiz. Davlat miqyosidagi inshootlarni qurish orqali biz kelajakni quryapmiz. Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar va infratuzilmani qurish va ulardan foydalanish bilan bog'liq ekologik jihatlar uchun to'liq javobgarlikni o'z zimmasiga oladi.",
     "link": "Batafsil bilish"
+  },
+  "contact": {
+    "title": "Savol, taklif va murojaatlar bormi?",
+    "name": "Ism",
+    "phone": "Telefon raqaminggiz",
+    "message": "Xabar qoldiring",
+    "send": "Yuborish",
+    "sending": "Yuborilmoqda..."
   }
 }

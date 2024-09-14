@@ -7,6 +7,7 @@
   <News />
   <Cooperation />
   <Ataev />
+  <Contact />
 </template>
 
 <script setup>
@@ -18,4 +19,5 @@ import Projects from "@/components/Projects.vue";
 import News from "@/components/News.vue";
 import Cooperation from "@/components/Cooperation.vue";
 import Ataev from "@/components/Ataev.vue";
+import Contact from "@/components/Contact.vue";
 </script>
